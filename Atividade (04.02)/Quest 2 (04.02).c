@@ -1,17 +1,10 @@
-#include <stdio.h>
+ #include <stdio.h>
 
 int main(){
 	
-	float elementos[5];
+	float elementos[5] = {1, 2, 3, 4, 5};
 	float maior;
 	int cont, cont2;
-	
-	printf("Digite 5 numeros: \n");	
-	
-	for(cont= 0; cont < 5; cont = cont + 1){
-	
-		scanf("%f", &elementos[cont]);
-	}
 	
 	for (cont2 = 0; cont2 < 5; cont2 = cont2 + 1){
 		
